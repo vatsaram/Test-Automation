@@ -1,0 +1,197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9116206834,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalculateLoanStepDefn.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify valid loan amount being displayed on entry of all input parameters",
+        "description": "",
+        "id": "validate-loan-amount-eligibity;verify-valid-loan-amount-being-displayed-on-entry-of-all-input-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 886284897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalculateLoanStepDefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15481871802,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user has provided the inputs",
+            "match": {
+              "location": "CalculateLoanStepDefn.readAllInputs(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "mobile",
+                  "email",
+                  "baseIncome",
+                  "partnerIncome",
+                  "otherIncome",
+                  "mortgage",
+                  "otherLoans",
+                  "creditCard",
+                  "livingCost"
+                ]
+              },
+              {
+                "cells": [
+                  "My name",
+                  "854985943",
+                  "abc@bac.com",
+                  "2500",
+                  "1700",
+                  "1000",
+                  "1400",
+                  "1000",
+                  "1000",
+                  "900"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97337374,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Assert the amount user is eligible for is displayed",
+            "match": {
+              "location": "CalculateLoanStepDefn.validAmtDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72619174,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Assert maximum repayment amount is displayed to the user",
+            "match": {
+              "location": "CalculateLoanStepDefn.validRepayAmtDisplayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7305205784,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalculateLoanStepDefn.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify user with insufficient income is not provided with a loan",
+        "description": "",
+        "id": "validate-loan-amount-eligibity;verify-user-with-insufficient-income-is-not-provided-with-a-loan",
+        "after": [
+          {
+            "result": {
+              "duration": 785247472,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CalculateLoanStepDefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16196864969,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user has provided the inputs",
+            "match": {
+              "location": "CalculateLoanStepDefn.readAllInputs(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "mobile",
+                  "email",
+                  "baseIncome",
+                  "partnerIncome",
+                  "otherIncome",
+                  "mortgage",
+                  "otherLoans",
+                  "creditCard",
+                  "livingCost"
+                ]
+              },
+              {
+                "cells": [
+                  "No Name",
+                  "484985943",
+                  "abc@bac.com",
+                  "2500",
+                  "000",
+                  "0000",
+                  "1300",
+                  "1000",
+                  "1000",
+                  "900"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88012156,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Assert that application provides a notice that user is not eligible for loan",
+            "match": {
+              "location": "CalculateLoanStepDefn.userIneligible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate loan amount eligibity",
+    "description": "",
+    "id": "validate-loan-amount-eligibity",
+    "keyword": "Feature",
+    "uri": "features/testScenario.feature",
+    "tags": []
+  }
+]

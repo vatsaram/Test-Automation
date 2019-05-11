@@ -1,0 +1,7 @@
+com\brightE\testBase\TestBase.class
+com\brightE\runner\ApplnRunnerIT.class
+com\brightE\pageFactory\DetailsPage.class
+com\brightE\pageFactory\EligibilityPage.class
+com\brightE\stepDefn\CalculateLoanStepDefn.class
+com\brightE\pageFactory\LandingPage.class
+com\brightE\testUtil\TestUtility.class
