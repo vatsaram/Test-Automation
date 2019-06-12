@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="50.059002">
+<testcase classname="Validate loan amount eligibity" name="Verify valid loan amount being displayed on entry of all input parameters" time="25.676495">
+<system-out><![CDATA[Given The user has provided the inputs......................................passed
+Then Assert the amount user is eligible for is displayed....................passed
+And Assert maximum repayment amount is displayed to the user................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate loan amount eligibity" name="Verify user with insufficient income is not provided with a loan" time="24.382507">
+<system-out><![CDATA[Given The user has provided the inputs......................................passed
+Then Assert that application provides a notice that user is not eligible for loan.passed
+]]></system-out>
+</testcase>
+</testsuite>
