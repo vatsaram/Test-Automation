@@ -1,4 +1,4 @@
-package com.brightE.runner;
+package com.SampleProject.runner;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.RunWith;
@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"classpath:features"},
-glue = {"com.brightE.stepDefn" }, 
+glue = {"com.SampleProject.stepDefn" }, 
 format = { "pretty", "html:test_output", "json:json_output/cucumber.json",
 				"junit:junit_output/cucumber.xml" }, 
 monochrome = true, 

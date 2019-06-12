@@ -1,11 +1,11 @@
-package com.brightE.stepDefn;
+package com.SampleProject.stepDefn;
 
 import java.util.Map;
 
-import com.brightE.pageFactory.DetailsPage;
-import com.brightE.pageFactory.EligibilityPage;
-import com.brightE.pageFactory.LandingPage;
-import com.brightE.testBase.TestBase;
+import com.SampleProject.pageFactory.DetailsPage;
+import com.SampleProject.pageFactory.EligibilityPage;
+import com.SampleProject.pageFactory.LandingPage;
+import com.SampleProject.testBase.TestBase;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.After;

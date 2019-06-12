@@ -1,11 +1,11 @@
-package com.brightE.pageFactory;
+package com.SampleProject.pageFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.brightE.testBase.TestBase;
-import com.brightE.testUtil.TestUtility;
+import com.SampleProject.testBase.TestBase;
+import com.SampleProject.testUtil.TestUtility;
 
 public class EligibilityPage extends TestBase {
 

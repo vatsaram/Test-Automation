@@ -1,4 +1,4 @@
-package com.brightE.testBase;
+package com.SampleProject.testBase;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import com.brightE.testUtil.TestUtility;
+import com.SampleProject.testUtil.TestUtility;
 
 
 public class TestBase {

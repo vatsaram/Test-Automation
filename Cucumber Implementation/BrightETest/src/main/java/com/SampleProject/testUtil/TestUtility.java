@@ -1,6 +1,6 @@
-package com.brightE.testUtil;
+package com.SampleProject.testUtil;
 
-import com.brightE.testBase.TestBase;
+import com.SampleProject.testBase.TestBase;
 
 public class TestUtility extends TestBase {
 
