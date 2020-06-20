@@ -1,0 +1,14 @@
+[main] INFO  org.testframework.utilities.FileReaderManager  - Property file set
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.utilities.StringOperations  - Payload prepared and variables succesfully replaced
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.utilities.StringOperations  - Payload prepared and variables succesfully replaced
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
+[main] INFO  org.testframework.utilities.StringOperations  - Payload prepared and variables succesfully replaced
+[main] INFO  org.testframework.api.BaseAPI  - Request specification built succesfully
