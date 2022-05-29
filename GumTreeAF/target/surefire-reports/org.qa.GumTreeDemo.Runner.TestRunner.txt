@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.qa.GumTreeDemo.Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 37.395 sec <<< FAILURE!
+Open Gum Tree home page and search for results(Check for opening Sample search results)  Time elapsed: 14.223 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(UIStepDefn.java:51)
+	at ✽.I search for Category - "Electronics & Computer"(classpath:Features/GumTreeUITest.feature:5)
+
+Validate the search results(Check for opening Sample search results)  Time elapsed: 0.033 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.verifyPreviousScenarioSuccessful(UIStepDefn.java:78)
+	at ✽.search results are displayed on the web page from previous tests(classpath:Features/GumTreeUITest.feature:12)
+
