@@ -1,0 +1,30 @@
+2022-05-30 18:59:27 INFO  APIStepDefn:55 - End point URI to be accessed https://ecg-api.gumtree.com.au/api/papi/ads/search
+ 2022-05-30 18:59:27 INFO  APIStepDefn:66 - Query parameters for construction : {"size":20,"sortType":"DATE_D","locationId":3003435,"categoryRedirected":1,"includeTopAds":1,"page":1,"keyword":"Table","categoryId":0}
+ 2022-05-30 18:59:28 INFO  BaseAPI:48 - Request specification built succesfully
+ 2022-05-30 18:59:30 INFO  APIStepDefn:70 - Generated pay load successfully and performed the GET operation
+ 2022-05-30 18:59:30 INFO  APIStepDefn:82 - Response code recieved : 400
+ 2022-05-30 18:59:30 INFO  APIStepDefn:85 - Response code matches with expected : 400
+ 2022-05-30 18:59:30 INFO  APIStepDefn:75 - Response type recieved : application/json
+ 2022-05-30 18:59:30 INFO  APIStepDefn:77 - Response type matches with expected : application/json
+ 2022-05-30 18:59:30 INFO  APIStepDefn:98 - Response headers recieved : 
+Server=rhino-core-shield
+Date=Mon, 30 May 2022 08:59:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+x-ebay-capi-request-correlation-id=464c315f-c3ef-4497-a649-86d150023936
+x-ebay-core-request-correlation-id=464c315f-c3ef-4497-a649-86d150023936
+x-cloud-trace-context=139c1db22235d1be9efd1a17cca96e04/12881027823752851363;o=0
+Alt-Svc=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Via=1.1 google
+Alt-Svc=h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+ 2022-05-30 18:59:30 INFO  APIStepDefn:99 - Expected Response headers : 
+[{Server=rhino-core-shield, Content-Type=application/json, Transfer-Encoding=chunked}]
+ 2022-05-30 18:59:30 INFO  APIStepDefn:111 - Expected value matches with actual. Expected key : Server Expected value : rhino-core-shield
+ 2022-05-30 18:59:30 INFO  APIStepDefn:111 - Expected value matches with actual. Expected key : Content-Type Expected value : application/json
+ 2022-05-30 18:59:30 INFO  APIStepDefn:111 - Expected value matches with actual. Expected key : Transfer-Encoding Expected value : chunked
+ 2022-05-30 18:59:30 INFO  APIStepDefn:132 - Expected Response body  : 
+[ResponseBodyPOJO(status=400, error=Bad Request, path=/api/papi/ads/search)]
+ 2022-05-30 18:59:30 INFO  APIStepDefn:135 - Response body recieved : 
+ResponseBodyPOJO(status=400, error=Bad Request, path=/api/papi/ads/search)
+ 2022-05-30 18:59:30 INFO  APIStepDefn:137 - Expected Response body matches with response
+ 

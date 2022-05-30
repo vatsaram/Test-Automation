@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>May 29, 2022 11:24:05 PM</span>
+			<span class='label blue darken-3 suite-start-time'>May 30, 2022 06:59:24 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -147,14 +147,14 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='35%'>
-                    <span class='strong'>6</span> steps passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='41%'>
+                    <span class='strong'>7</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='11%'>
                     2</span> steps failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='52%'>
-                    9</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='47%'>
+                    8</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> others
                 </div>
@@ -178,7 +178,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Test API results for given payload</span>
-						<span class='test-time'>May 29, 2022 11:24:06 PM</span>
+						<span class='test-time'>May 30, 2022 06:59:27 PM</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -191,7 +191,7 @@
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 01.934</span>
+	<span class='duration right label'>00 00 03.394</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Construct payload and review result</div>
 	</div>
@@ -238,7 +238,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>Check for opening Sample search results</span>
-						<span class='test-time'>May 29, 2022 11:24:08 PM</span>
+						<span class='test-time'>May 30, 2022 06:59:30 PM</span>
 						<span class='test-status right fail'>Fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -251,7 +251,7 @@
 
 <div class='scenario node' test-id='10' status='fail'>
 
-	<span class='duration right label'>00 00 07.773</span>
+	<span class='duration right label'>00 00 32.945</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Open Gum Tree home page and search for results</div>
 	</div>
@@ -259,21 +259,19 @@
 	
 	
 	<ul class='steps'>
-		<li test-id='11' class='node given Fail' status='Fail'>
-			<div class="step-name" title="(org.qa.GumTreeDemo.StepDefn.UIStepDefn.initialiseAndOpenHomePage())"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given I initialise the drivers and open Gum Tree home page</div>
+		<li test-id='11' class='node given Pass' status='Pass'>
+			<div class="step-name" title="(org.qa.GumTreeDemo.StepDefn.UIStepDefn.initialiseAndOpenHomePage())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I initialise the drivers and open Gum Tree home page</div>
 
 
-					<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.qa.GumTreeDemo.Pages.HomePage.openHomePage(HomePage.java:42)
-	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.initialiseAndOpenHomePage(UIStepDefn.java:45)
-	at ✽.I initialise the drivers and open Gum Tree home page(classpath:Features/GumTreeUITest.feature:4)
-</textarea>
 		</li>
-		<li test-id='12' class='node when Skip' status='Skip'>
-			<div class="step-name" title="(org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(java.lang.String))"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When I search for Category - "Electronics & Computer"</div>
+		<li test-id='12' class='node when Fail' status='Fail'>
+			<div class="step-name" title="(org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(java.lang.String))"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>When I search for Category - "Electronics & Computer"</div>
 
 
-					<div class="node-step">Step skipped</div>
+					<textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(UIStepDefn.java:52)
+	at ?.I search for Category - "Electronics & Computer"(classpath:Features/GumTreeUITest.feature:5)
+</textarea>
 		</li>
 		<li test-id='13' class='node and Skip' status='Skip'>
 			<div class="step-name" title="(org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForItem(java.lang.String))"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And search for the item - "Sennheiser Headphones"</div>
@@ -303,7 +301,7 @@
 </div>
 <div class='scenario node' test-id='17' status='fail'>
 
-	<span class='duration right label'>00 00 00.016</span>
+	<span class='duration right label'>00 00 00.008</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Validate the search results</div>
 	</div>
@@ -317,7 +315,7 @@
 
 					<textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
 	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.verifyPreviousScenarioSuccessful(UIStepDefn.java:79)
-	at ✽.search results are displayed on the web page from previous tests(classpath:Features/GumTreeUITest.feature:12)
+	at ?.search results are displayed on the web page from previous tests(classpath:Features/GumTreeUITest.feature:12)
 </textarea>
 		</li>
 		<li test-id='19' class='node then Skip' status='Skip'>
@@ -391,7 +389,7 @@
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
 						<span class='exception-name'>io.cucumber.java.PendingException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
 					</div>
 					<div class='exception-content hide'>
 						<div class='exception-tests'>
@@ -405,44 +403,22 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>May 29, 2022 11:24:16 PM</td>
-										<td class='linked' test-id='18'>Given search results are displayed on the web page from previous tests</td>
+										<td>May 30, 2022 07:00:03 PM</td>
+										<td class='linked' test-id='12'>When I search for Category - "Electronics & Computer"</td>
 										<td>
 											<textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
-	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.verifyPreviousScenarioSuccessful(UIStepDefn.java:79)
-	at ✽.search results are displayed on the web page from previous tests(classpath:Features/GumTreeUITest.feature:12)
+	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(UIStepDefn.java:52)
+	at ?.I search for Category - "Electronics & Computer"(classpath:Features/GumTreeUITest.feature:5)
 </textarea>
 										</td>
 									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.NullPointerException</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
 									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>StackTrace</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>May 29, 2022 11:24:08 PM</td>
-										<td class='linked' test-id='11'>Given I initialise the drivers and open Gum Tree home page</td>
+										<td>May 30, 2022 07:00:03 PM</td>
+										<td class='linked' test-id='18'>Given search results are displayed on the web page from previous tests</td>
 										<td>
-											<textarea disabled class="code-block">java.lang.NullPointerException
-	at org.qa.GumTreeDemo.Pages.HomePage.openHomePage(HomePage.java:42)
-	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.initialiseAndOpenHomePage(UIStepDefn.java:45)
-	at ✽.I initialise the drivers and open Gum Tree home page(classpath:Features/GumTreeUITest.feature:4)
+											<textarea disabled class="code-block">io.cucumber.java.PendingException: TODO: implement me
+	at org.qa.GumTreeDemo.StepDefn.UIStepDefn.searchForCategory(UIStepDefn.java:52)
+	at ?.I search for Category - "Electronics & Computer"(classpath:Features/GumTreeUITest.feature:5)
 </textarea>
 										</td>
 									</tr>
@@ -486,19 +462,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 29, 2022 11:24:05 PM</div>
+					<div class='panel-lead'>May 30, 2022 06:59:24 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 29, 2022 11:24:17 PM</div>
+			 		<div class='panel-lead'>May 30, 2022 07:00:04 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 11.833</div>
+					<div class='panel-lead'>00 00 39.757</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -545,19 +521,19 @@
 				skipChild: 0,
 				infoChild: 0,
 				grandChildCount: 17,
-				passGrandChild: 6,
+				passGrandChild: 7,
 				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 9,
+				skipGrandChild: 8,
 				infoGrandChild: 0,
 			};
 			</script>
 		
 		<script>
 			var timeline = {
-			        "Test API results for given payload":1.938,"Check for opening Sample search results":7.811
+			        "Test API results for given payload":3.412,"Check for opening Sample search results":32.994
 			};
 		</script>
 		

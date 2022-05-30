@@ -36,7 +36,7 @@ public class HomePage extends BasePage {
 
 	public void openHomePage()  {
 		driver.get("https://www.gumtree.com.au/");
-			
+//		category.click();
 	}
 
 }
